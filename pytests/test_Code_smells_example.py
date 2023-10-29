@@ -1,6 +1,7 @@
 import time
 
-from Code_Examples.Code_smells_example import calculate_total_price, calculate_total_price_new
+from Old_Code.Code_smells_example import calculate_total_price
+from New_Code.Good_Smelling_Code import calculate_total_price_new
 from New_Classes.Item import Item
 def test_calculate_total_price():
     items = [Item("iPhone", 1, 1100.00),

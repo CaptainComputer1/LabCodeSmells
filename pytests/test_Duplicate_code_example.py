@@ -1,5 +1,6 @@
 import time
-from Code_Examples.Duplicate_code_example import *
+from Old_Code.Duplicate_code_example import *
+from New_Code.Efficient_Shape_Code import *
 def test_calculate_area():
     assert calculate_area(3, 5) == 15
 def test_calculate_perimeter():
